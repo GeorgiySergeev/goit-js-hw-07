@@ -28,8 +28,13 @@ function onImageClick(evt) {
   if (!evt.target.classList.contains("gallery__image")) {
     return;
   }
-  new SimpleLightbox('.gallery__item a', { /* options */ });
+ 
 
-
+    new SimpleLightbox(".gallery a", {
+   
+    captionType: description,
+  
+    captionDelay: 250,
+  });
   
 }
