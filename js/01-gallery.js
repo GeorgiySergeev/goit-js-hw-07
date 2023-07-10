@@ -1,18 +1,6 @@
 import { galleryItems } from "./gallery-items.js";
-// Change code below this line
-
-console.log(galleryItems);
-
-const instance = basicLightbox.create(`
-    <h1>Dynamic Content</h1>
-    <p>You can set the content of the lightbox with JS.</p>
-`);
-//instance.show()
-
-//============js==============
 
 const galleryBox = document.querySelector(".gallery");
-console.log(galleryBox);
 
 const markup = galleryItems
   .map(
